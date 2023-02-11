@@ -2275,8 +2275,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 232017207}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.91205, y: 2.0284379, z: -5.556039}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -21.01205, y: 34.96264, z: 9.607524}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2284,8 +2284,8 @@ Transform:
   - {fileID: 1443116066}
   - {fileID: 1556227088}
   - {fileID: 2115426050}
-  m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_Father: {fileID: 1938487676}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &238453222
 GameObject:
@@ -10433,7 +10433,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f51c366f699170142ab65be2c35c53a3, type: 3}
       propertyPath: m_Name
-      value: Incubation
+      value: MotherIncubation
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f51c366f699170142ab65be2c35c53a3, type: 3}
@@ -15365,6 +15365,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1040659841}
+  - component: {fileID: 1040659842}
   m_Layer: 0
   m_Name: FenceLeft
   m_TagString: Untagged
@@ -15390,6 +15391,19 @@ Transform:
   m_Father: {fileID: 232017208}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1040659842
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040659840}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 8.140369, y: 9.378731, z: 143.16286}
+  m_Center: {x: -4.532652, y: -4.62352, z: -53.464485}
 --- !u!1 &1044414729
 GameObject:
   m_ObjectHideFlags: 0
@@ -20481,7 +20495,7 @@ MonoBehaviour:
   _exitPoint: {fileID: 3896470536397137111}
   _spawnPoint: {fileID: 3796710340883486979}
   isFarmerSpawned: 0
-  enemyFarmerSpawnTime: 15
+  enemyFarmerSpawnTime: 45
   enemyFarmerSpawnRate: 45
 --- !u!4 &1419033769
 Transform:
@@ -21764,6 +21778,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1556227088}
+  - component: {fileID: 1556227089}
   m_Layer: 0
   m_Name: Fence_3
   m_TagString: Untagged
@@ -21793,6 +21808,19 @@ Transform:
   m_Father: {fileID: 232017208}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!65 &1556227089
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1556227087}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.052591, y: 5.9098463, z: 82.27039}
+  m_Center: {x: 1.2793994, y: 0.030835629, z: -22.145966}
 --- !u!1 &1571684436
 GameObject:
   m_ObjectHideFlags: 0
@@ -27809,6 +27837,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 731534571}
+  - {fileID: 232017208}
   m_Father: {fileID: 0}
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -30856,6 +30885,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2115426050}
+  - component: {fileID: 2115426051}
   m_Layer: 0
   m_Name: FenceLeft_1
   m_TagString: Untagged
@@ -30881,6 +30911,19 @@ Transform:
   m_Father: {fileID: 232017208}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2115426051
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2115426049}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0039482, y: 10.841022, z: 143.16286}
+  m_Center: {x: -0.9644413, y: -3.8923745, z: -53.464485}
 --- !u!1 &2117071917
 GameObject:
   m_ObjectHideFlags: 0
@@ -33469,6 +33512,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1354869516218698369, guid: 4528c29d725bb0a448256db2336f1ac6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 93395cc4f50d190439edaca21bc60cea, type: 2}
     - target: {fileID: 4111984146946375928, guid: 4528c29d725bb0a448256db2336f1ac6, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -34353,7 +34400,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4930431776407281128, guid: d49f10dc3e3ae064caf28a04729ac035, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 36.53
+      value: 34.2
       objectReference: {fileID: 0}
     - target: {fileID: 4930431776407281128, guid: d49f10dc3e3ae064caf28a04729ac035, type: 3}
       propertyPath: m_LocalPosition.y
@@ -34361,7 +34408,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4930431776407281128, guid: d49f10dc3e3ae064caf28a04729ac035, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.97
+      value: -8.1
       objectReference: {fileID: 0}
     - target: {fileID: 4930431776407281128, guid: d49f10dc3e3ae064caf28a04729ac035, type: 3}
       propertyPath: m_LocalRotation.w
